@@ -1,0 +1,98 @@
+/*basic settings*/
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*text*/
+#text{
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+  margin-top: 15%!important;
+  padding-top: 15px;
+}
+
+/*main*/
+body{
+  background-image: url("./fundo.jpg");
+}
+
+#main-box{
+  background: linear-gradient(#FF8000,rgb(4, 4, 53));
+  border-radius: 10%;
+  width: 30%;
+  height: 50%;
+  margin-top: 5%!important;
+  margin: auto;
+}
+
+
+/*login*/
+.text-input1{
+  padding: 3%;
+  width: 90%;
+  margin-top: 12%;
+  border:1px solid black;
+  margin-left: 2%;
+
+}
+
+/*pw*/
+.text-input2{
+  padding: 3%;
+  width: 90%;
+  margin-top: 5%;
+  border:1px solid black;
+  margin-left: 2%;
+
+}
+
+input{
+  border-radius: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: rgb(1, 1, 26);
+}
+
+/*buttons*/
+.button1{
+  padding: 2%;
+  width: 25%;
+  border-radius: 8%;
+  font-size: 2vh;
+  font-weight: bold;
+  margin-top:10%;
+  margin-left: 20%;
+  color: rgb(242, 242, 248);
+  background:linear-gradient(rgb(189, 101, 18), #0B243B);
+}
+.button2{
+  padding: 2%;
+  width: 25%;
+  border-radius: 8%;
+  font-size: 2vh;
+  font-weight: bold;
+  margin-top:10%;
+  margin-left: 8%;
+  color: rgb(242, 242, 248);
+  background:linear-gradient(rgb(189, 101, 18), #0B243B);
+}
+
+
+/*forlogin*/
+#forlogin{
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  margin-top: 25%;
+}
